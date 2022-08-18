@@ -44,7 +44,7 @@ to upload files of project folder on thes repo
 -------------
 git log (history)-> tell me what is edits done and evey edit who do it 
 //
-edit
+edit lorem
 
 
 
