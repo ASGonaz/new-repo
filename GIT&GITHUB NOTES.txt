@@ -43,6 +43,8 @@ to upload files of project folder on thes repo
  c- git push origin master (master is my main brance) (or branch name instead of master)
 -------------
 git log (history)-> tell me what is edits done and evey edit who do it 
+//
+edit
 
 
 
