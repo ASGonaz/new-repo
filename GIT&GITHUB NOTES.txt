@@ -1,0 +1,71 @@
+﻿github is -> service cloud 
+بحط فية المشاريع بتاعي 
+بقدر ادير المشاريع دي باستخدام جيت
+-------
+git is a -> برنامج بيتثبت علي جهازي 
+         -> version control system 
+version control system is 
+نظام وظيفتة ادارة الكود البرمجي
+بيخزن كل عملية بقوم بيها في الكود بتاعي 
+بيتتبع تعديلات الفايلز 
+و مين الي عدل و في انهي وقت 
+و بيدي صلحيات موافقة علي التعديلات و لا لا
+------------
+make account on git hub
+download git
+//عايز ارفع مشروع عندي
+open folder of project
+make my folder of project support git to be able to upload my project on github
+click -> get bash here
+---------------------------------
+** create  empty Git repository Locally at project folder  :
+ git init
+---------------------------------
+to tell git who i'm
+** set your name and email :
+git config --global user.name "your name"
+git config --global user.email "email@example.com"
+---------------------------------
+to upload files of my project on github , 
+should exist a repo on github to connect with my localy empty Git repo of my project
+open github -> https://github.com/new ->create repo
+to connect both
+----------------------------------------------------
+** link your local repo. with github a repository : (only if you have an empty repository on github and you are the first one to add things to it)
+
+git remote add origin (link of your repository on github) https://github.com/ASGonaz/test-repo.git
+----------------------------------------------------------
+last four commands write only first time and one time
+-------------------
+to upload files of project folder on thes repo 
+ a- git add . -> add files of project folder to Git repository Locally
+ b- git commit -m "your commit message" add any comment for this changes
+ c- git push origin master (master is my main brance) (or branch name instead of master)
+-------------
+git log (history)-> tell me what is edits done and evey edit who do it 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+** To confirm Changes :
+- frst adding them to stagging area : git add .
+- then commit with a suitable commit message :git commit -m "your commit message"
+--------
+** to view commits log (history) :
+git log
+---------------------------------
+** to push your commits to the github repository:
+git push origin master  (or branch name instead of master)
